@@ -22,3 +22,4 @@
 # Runtime file
 /run/
 /build/
+/.gradle/
