@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "modid": "thermal",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/gear"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "fluid": "tconstruct:molten_diamond",
+    "amount": 576
+  },
+  "result": {
+    "item": "thermal:diamond_gear"
+  },
+  "cooling_time": 114
+}

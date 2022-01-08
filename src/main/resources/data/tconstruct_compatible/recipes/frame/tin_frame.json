@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "tconstruct_compatible:wooden_frame"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "tconstruct:molten_tin",
+    "amount": 576
+  },
+  "result": "tconstruct_compatible:tin_frame",
+  "cooling_time": 102
+}

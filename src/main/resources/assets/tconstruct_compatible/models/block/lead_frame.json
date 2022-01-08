@@ -1,0 +1,7 @@
+{
+	"parent": "tconstruct_compatible:block/base/frame",
+	"textures": {
+		"0": "tconstruct_compatible:block/lead_frame",
+		"particle": "tconstruct_compatible:block/lead_frame"
+	}
+}

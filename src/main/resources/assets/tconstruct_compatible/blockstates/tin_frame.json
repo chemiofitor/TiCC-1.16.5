@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tconstruct_compatible:block/tin_frame"
+    }
+  }
+}

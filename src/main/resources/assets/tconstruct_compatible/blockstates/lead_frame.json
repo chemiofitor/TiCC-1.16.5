@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tconstruct_compatible:block/lead_frame"
+    }
+  }
+}
