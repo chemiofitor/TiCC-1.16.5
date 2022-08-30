@@ -1,0 +1,20 @@
+{
+  "itemGroup.ticc": "TConstruct Compatible",
+
+  "block.ticc.quartz_glass": "Quartz Glass",
+
+  "block.ticc.wooden_frame": "Wooden Frame",
+  "block.ticc.iron_frame": "Iron Frame",
+  "block.ticc.lead_frame": "Lead Frame",
+  "block.ticc.copper_frame": "Copper Frame",
+  "block.ticc.chlorium_frame": "Chlorium Frame",
+
+  "item.ticc.molten_chlorium_bucket": "Molten Chlorium Bucket",
+  "fluid.ticc.molten_chlorium": "Molten Chlorium",
+
+  "material.ticc.chlorium": "Chlorium",
+
+  "modifier.ticc.photosynthesis": "Photosynthesis",
+  "modifier.ticc.photosynthesis.flavor": "Self repair!",
+  "modifier.ticc.photosynthesis.description": "Tool can repair itself when it rains or during the day."
+}

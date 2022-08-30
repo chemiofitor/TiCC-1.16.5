@@ -1,26 +1,21 @@
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net' }
-        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
         mavenCentral()
-        jcenter()
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-apply plugin: 'maven-publish'
+group = 'hualong.ticc'
+version = '1.16.5-3.0.0'
 
-apply plugin: 'org.spongepowered.mixin'
-
-version = '0.0.1'
-group = 'hlft.tconstruct_compatible'
-archivesBaseName = 'tconstruct_compatible'
-
-java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+java {
+    archivesBaseName = 'TiCC'
+    toolchain.languageVersion = JavaLanguageVersion.of(8)
+}
 
 minecraft {
 
@@ -31,11 +26,10 @@ minecraft {
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                blaze {
+                ticc {
                     source sourceSets.main
                 }
             }
@@ -45,11 +39,10 @@ minecraft {
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                blaze {
+                ticc {
                     source sourceSets.main
                 }
             }
@@ -59,13 +52,12 @@ minecraft {
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'REGISTRIES'
-
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'tconstruct_compatible', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'ticc', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                blaze {
+                ticc {
                     source sourceSets.main
                 }
             }
@@ -73,75 +65,46 @@ minecraft {
     }
 }
 
-compileJava {
-    options.compilerArgs = ["-Xdiags:verbose"]
-}
-
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
-    mavenLocal()
-    maven {
-        url 'https://maven.covers1624.net/'
-    }
-    maven {
+     maven {
+         allowInsecureProtocol = true
         url "https://www.cursemaven.com"
         content {
             includeGroup "curse.maven"
         }
     }
     maven {
-        // Location of the maven that hosts JEI files (and TiC)
-        name = "Progwml6 maven"
-        url = "https://dvs1.progwml6.com/files/maven/"
+        allowInsecureProtocol = true
+        name 'DVS1 Maven FS'
+        url 'http://dvs1.progwml6.com/files/maven'
     }
-    maven { url 'https://maven.blamejared.com' }
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.9'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
 
     compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.116:api")
     runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.116")
 
-    runtimeOnly fg.deobf("com.blamejared.crafttweaker:CraftTweaker-1.16.5:7.1.2.470")
-
-    implementation fg.deobf("slimeknights.mantle:Mantle:1.16.5-1.6.127")
-    implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.16.5-3.2.0.290")
-
-    implementation fg.deobf("com.teamcofh:cofh_core:1.16.5-1.4.1.+")
-    implementation fg.deobf("com.teamcofh:thermal_foundation:1.16.5-1.4.0.+")
-    implementation fg.deobf("com.teamcofh:thermal_expansion:1.16.5-1.4.1.+")
-    implementation fg.deobf("com.teamcofh:thermal_innovation:1.16.5-1.4.1.+")
-
-    annotationProcessor 'org.spongepowered:mixin:0.8:processor'
+    implementation fg.deobf("slimeknights.mantle:Mantle:1.16.5-1.6.158")
+    implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.16.5-3.3.4.335")
+    implementation fg.deobf("curse.maven:technical-engineering-3-658874:3953975")
 }
 
 jar {
     manifest {
         attributes([
-            "Specification-Title": "tconstruct_compatible",
-            "Specification-Version": "1",
-            "Implementation-Title": project.name,
-            "Implementation-Version": "${version}",
-            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+                "Specification-Title"     : "TiCC",
+                "Specification-Vendor"    : "Chemiofitor",
+                "Specification-Version"   : "1",
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "Chemiofitor",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
 }
 
-jar.finalizedBy('reobfJar') 
-
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifact jar
-        }
-    }
-    repositories {
-        maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
-        }
-    }
-}
-
+jar.finalizedBy('reobfJar')

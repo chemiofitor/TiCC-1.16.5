@@ -1,0 +1,20 @@
+{
+  "itemGroup.ticc": "匠魂兼容",
+
+  "block.ticc.quartz_glass": "石英玻璃",
+
+  "block.ticc.wooden_frame": "木质框架",
+  "block.ticc.iron_frame": "铁质框架",
+  "block.ticc.lead_frame": "铅质框架",
+  "block.ticc.copper_frame": "铜质框架",
+  "block.ticc.chlorium_frame": "叶绿质框架",
+
+  "item.ticc.molten_chlorium_bucket": "熔融叶绿桶",
+  "fluid.ticc.molten_chlorium": "熔融叶绿",
+
+  "material.ticc.chlorium": "叶绿",
+
+  "modifier.ticc.photosynthesis": "光合作用",
+  "modifier.ticc.photosynthesis.flavor": "自我修复!",
+  "modifier.ticc.photosynthesis.description": "工具可以在下雨时或者白天自我修复"
+}

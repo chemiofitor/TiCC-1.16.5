@@ -1,7 +1,0 @@
-{
-	"parent": "tconstruct_compatible:block/base/frame",
-	"textures": {
-		"0": "block/iron_block",
-		"particle": "block/iron_block"
-	}
-}

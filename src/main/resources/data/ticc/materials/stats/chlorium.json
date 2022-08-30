@@ -1,0 +1,23 @@
+{
+  "conditions": [
+    {
+      "modid": "ten3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "stats": {
+    "tconstruct:extra": {},
+    "tconstruct:handle": {
+      "durability": 1.1,
+      "miningSpeed": 1.05,
+      "attackSpeed": 1.05,
+      "attackDamage": 0.9
+    },
+    "tconstruct:head": {
+      "durability": 450,
+      "miningSpeed": 7.5,
+      "harvestLevel": 3,
+      "attack": 3
+    }
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tconstruct_compatible:block/quartz_glass"
-  }
-}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#ticc:frames/wooden",
+    "#ticc:frames/iron",
+    "#ticc:frames/lead",
+    "#ticc:frames/copper",
+    "#ticc:frames/chlorium"
+  ]
+}
