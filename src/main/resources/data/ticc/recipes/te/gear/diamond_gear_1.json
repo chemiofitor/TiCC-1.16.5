@@ -10,7 +10,7 @@
     "tag": "tconstruct:casts/multi_use/gear"
   },
   "fluid": {
-    "fluid": "tconstruct:molten_diamond",
+    "tag": "tconstruct:molten_diamond",
     "amount": 576
   },
   "result": {

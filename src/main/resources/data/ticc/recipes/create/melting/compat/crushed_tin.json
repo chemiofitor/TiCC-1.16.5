@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/tin",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "recipe": {
+    "type": "tconstruct:ore_melting",
+    "ingredient": {
+      "item": "create:crushed_nickel_ore"
+    },
+    "result": {
+      "fluid": "tconstruct:molten_nickel",
+      "amount": 192
+    },
+    "temperature": 225,
+    "time": 90
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "recipe": {
+    "type": "tconstruct:ore_melting",
+    "ingredient": {
+      "item": "create:crushed_copper_ore"
+    },
+    "result": {
+      "fluid": "tconstruct:molten_copper",
+      "amount": 192
+    },
+    "temperature": 500,
+    "time": 90
+  }
+}

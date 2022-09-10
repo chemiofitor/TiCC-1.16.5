@@ -11,7 +11,7 @@
   },
   "cast_consumed": true,
   "fluid": {
-    "name": "tconstruct:molten_signalum",
+    "tag": "forge:molten_signalum",
     "amount": 72
   },
   "result": "thermal:signalum_glass",

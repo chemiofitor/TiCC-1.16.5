@@ -23,6 +23,9 @@ public class TiCCBlocks {
             FrameBlock::metal, block -> new BlockItem(block, itemPro()));
     public static final ItemObject<FrameBlock> COPPER_FRAME = BLOCKS.register("copper_frame",
             FrameBlock::metal, block -> new BlockItem(block, itemPro()));
+    public static final ItemObject<FrameBlock> STEEL_FRAME = BLOCKS.register("steel_frame",
+            FrameBlock::metal, block -> new BlockItem(block, itemPro()));
+
     public static AbstractBlock.Properties copyBlock(Block block) {
         return AbstractBlock.Properties.copy(block);
     }

@@ -1,0 +1,20 @@
+{
+  "conditions": [
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "recipe": {
+    "type": "tconstruct:ore_melting",
+    "ingredient": {
+      "item": "create:crushed_brass_ore"
+    },
+    "result": {
+      "fluid": "tconstruct:molten_brass",
+      "amount": 192
+    },
+    "temperature": 605,
+    "time": 90
+  }
+}

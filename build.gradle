@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 
 group = 'hualong.ticc'
-version = '1.16.5-3.0.0'
+version = '1.16.5-3.1.0'
 
 java {
     archivesBaseName = 'TiCC'
@@ -90,7 +90,7 @@ dependencies {
 
     implementation fg.deobf("slimeknights.mantle:Mantle:1.16.5-1.6.158")
     implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.16.5-3.3.4.335")
-    implementation fg.deobf("curse.maven:technical-engineering-3-658874:3953975")
+    implementation fg.deobf("curse.maven:technical-engineering-3-658874:3969773")
 }
 
 jar {

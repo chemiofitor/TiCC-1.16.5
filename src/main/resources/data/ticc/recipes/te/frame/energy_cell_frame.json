@@ -11,9 +11,9 @@
   },
   "cast_consumed": true,
   "fluid": {
-    "name": "tconstruct:molten_electrum",
+    "tag": "forge:molten_electrum",
     "amount": 576
   },
   "result": "thermal:energy_cell_frame",
-  "cooling_time": 102
+  "cooling_time": 114
 }

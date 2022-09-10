@@ -13,8 +13,8 @@ public class PhotosynthesisModifier extends Modifier {
 
     @Override
     public void onInventoryTick(IModifierToolStack tool, int level, World world, LivingEntity holder, int itemSlot, boolean isSelected, boolean isCorrectSlot, ItemStack stack) {
-        if (!world.isClientSide && holder.tickCount % 60 == 0 && holder.getUseItem() != stack) {
-            if (RANDOM.nextFloat() < 0.1 + (level - 1) * 0.05 && (world.isRainingAt(holder.blockPosition().above()) || world.isDay())) {
+        if (!world.isClientSide && holder.tickCount % 40 == 0 && holder.getUseItem() != stack) {
+            if (RANDOM.nextFloat() < 0.1 * level && (world.isRainingAt(holder.blockPosition().above()) || world.isDay())) {
                 if (tool.getDamage() > 0)
                     tool.setDamage(tool.getDamage() - 1);
             }

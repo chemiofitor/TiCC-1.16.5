@@ -5,6 +5,7 @@
     "#ticc:frames/iron",
     "#ticc:frames/lead",
     "#ticc:frames/copper",
-    "#ticc:frames/chlorium"
+    "#ticc:frames/chlorium",
+    "#ticc:frames/steel"
   ]
 }

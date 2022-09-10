@@ -1,19 +1,19 @@
 {
   "conditions": [
     {
-      "modid": "thermal",
+      "modid": "mekanism",
       "type": "forge:mod_loaded"
     }
   ],
   "type": "tconstruct:casting_basin",
   "cast": {
-    "item": "ticc:iron_frame"
+    "item": "ticc:steel_frame"
   },
   "cast_consumed": true,
   "fluid": {
-    "tag": "forge:molten_tin",
-    "amount": 576
+    "tag": "forge:molten_osmium",
+    "amount": 144
   },
-  "result": "thermal:machine_frame",
-  "cooling_time": 114
+  "result": "mekanism:steel_casing",
+  "cooling_time": 76
 }

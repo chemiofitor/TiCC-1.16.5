@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/osmium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "recipe": {
+    "type": "tconstruct:ore_melting",
+    "ingredient": {
+      "item": "create:crushed_osmium_ore"
+    },
+    "result": {
+      "fluid": "tconstruct:molten_osmium",
+      "amount": 192
+    },
+    "temperature": 975,
+    "time": 90
+  }
+}

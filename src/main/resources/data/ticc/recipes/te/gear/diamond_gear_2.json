@@ -11,7 +11,7 @@
   },
   "cast_consumed": true,
   "fluid": {
-    "fluid": "tconstruct:molten_diamond",
+    "tag": "tconstruct:molten_diamond",
     "amount": 576
   },
   "result": {
