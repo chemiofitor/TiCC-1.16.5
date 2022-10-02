@@ -12,16 +12,15 @@
       "type": "forge:mod_loaded"
     }
   ],
-  "recipe": {
-    "type": "tconstruct:ore_melting",
-    "ingredient": {
-      "item": "create:crushed_nickel_ore"
-    },
-    "result": {
-      "fluid": "tconstruct:molten_nickel",
-      "amount": 192
-    },
-    "temperature": 950,
-    "time": 90
-  }
+
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create:crushed_nickel_ore"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_nickel",
+    "amount": 192
+  },
+  "temperature": 950,
+  "time": 90
 }

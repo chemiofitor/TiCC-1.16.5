@@ -6,8 +6,8 @@
   "cast_consumed": true,
   "fluid": {
     "tag": "tconstruct:molten_quartz",
-    "amount": 72
+    "amount": 144
   },
   "result": "ticc:quartz_glass",
-  "cooling_time": 81
+  "cooling_time": 41
 }

@@ -12,16 +12,14 @@
       "type": "forge:mod_loaded"
     }
   ],
-  "recipe": {
-    "type": "tconstruct:ore_melting",
-    "ingredient": {
-      "item": "create:crushed_lead_ore"
-    },
-    "result": {
-      "fluid": "tconstruct:molten_lead",
-      "amount": 192
-    },
-    "temperature": 330,
-    "time": 90
-  }
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create:crushed_lead_ore"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_lead",
+    "amount": 192
+  },
+  "temperature": 330,
+  "time": 90
 }

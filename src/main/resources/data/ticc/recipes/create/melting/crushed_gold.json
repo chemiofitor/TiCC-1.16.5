@@ -5,16 +5,14 @@
       "type": "forge:mod_loaded"
     }
   ],
-  "recipe": {
-    "type": "tconstruct:ore_melting",
-    "ingredient": {
-      "item": "create:crushed_gold_ore"
-    },
-    "result": {
-      "fluid": "tconstruct:molten_gold",
-      "amount": 192
-    },
-    "temperature": 700,
-    "time": 90
-  }
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create:crushed_gold_ore"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_gold",
+    "amount": 192
+  },
+  "temperature": 700,
+  "time": 90
 }

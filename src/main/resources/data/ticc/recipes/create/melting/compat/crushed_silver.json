@@ -12,16 +12,14 @@
       "type": "forge:mod_loaded"
     }
   ],
-  "recipe": {
-    "type": "tconstruct:ore_melting",
-    "ingredient": {
-      "item": "create:crushed_silver_ore"
-    },
-    "result": {
-      "fluid": "tconstruct:molten_silver",
-      "amount": 192
-    },
-    "temperature": 790,
-    "time": 90
-  }
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create:crushed_silver_ore"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_silver",
+    "amount": 192
+  },
+  "temperature": 790,
+  "time": 90
 }
