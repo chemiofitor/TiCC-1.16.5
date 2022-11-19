@@ -12,8 +12,15 @@
 
   "item.ticc.molten_chlorium_bucket": "Molten Chlorium Bucket",
   "fluid.ticc.molten_chlorium": "Molten Chlorium",
+  "item.ticc.molten_powered_tin_bucket": "Molten Powered Tin Bucket",
+  "fluid.ticc.molten_powered_tin": "Molten Powered Tin",
+  "item.ticc.redstone_bucket": "Molten Redstone Bucket",
+  "fluid.ticc.redstone": "Molten Redstone",
+  "item.ticc.glowstone_bucket": "Thick Glowstone Bucket",
+  "fluid.ticc.glowstone": "Thick Glowstone",
 
   "material.ticc.chlorium": "Chlorium",
+  "material.ticc.powered_tin": "Powered Tin",
 
   "modifier.ticc.photosynthesis": "Photosynthesis",
   "modifier.ticc.photosynthesis.flavor": "Self repair!",

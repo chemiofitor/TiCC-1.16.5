@@ -11,11 +11,11 @@
   },
   "cast_consumed": true,
   "fluid": {
-    "tag": "forge:molten_chlorium",
+    "tag": "forge:molten_powered_tin",
     "amount": 144
   },
   "result": {
-    "tag": "forge:ingots/chlorium"
+    "tag": "forge:ingots/powered_tin"
   },
   "cooling_time": 50
 }

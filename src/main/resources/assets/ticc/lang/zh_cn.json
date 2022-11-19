@@ -12,8 +12,15 @@
 
   "item.ticc.molten_chlorium_bucket": "熔融叶绿桶",
   "fluid.ticc.molten_chlorium": "熔融叶绿",
+  "item.ticc.molten_powered_tin_bucket": "熔融充能锡桶",
+  "fluid.ticc.molten_powered_tin": "熔融充能锡",
+  "item.ticc.redstone_bucket": "熔融红石桶",
+  "fluid.ticc.redstone": "熔融红石",
+  "item.ticc.glowstone_bucket": "稠状萤石桶",
+  "fluid.ticc.glowstone": "稠状萤石",
 
   "material.ticc.chlorium": "叶绿",
+  "material.ticc.powered_tin": "充能锡",
 
   "modifier.ticc.photosynthesis": "光合作用",
   "modifier.ticc.photosynthesis.flavor": "自我修复!",

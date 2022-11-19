@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:glowstone",
+      "amount": 250
+    },
+    {
+      "tag": "forge:molten_powered_tin",
+      "amount": 288
+    },
+    {
+      "tag": "forge:molten_nickel",
+      "amount": 144
+    }
+  ],
+  "result": {
+    "fluid": "ticc:molten_chlorium",
+    "amount": 720
+  },
+  "temperature": 800
+}
