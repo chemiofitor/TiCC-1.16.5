@@ -10,7 +10,7 @@
   ],
   "type": "tconstruct:melting",
   "ingredient": {
-    "item": "minecraft:redstone_stone"
+    "item": "minecraft:redstone"
   },
   "result": {
     "fluid": "ticc:redstone",

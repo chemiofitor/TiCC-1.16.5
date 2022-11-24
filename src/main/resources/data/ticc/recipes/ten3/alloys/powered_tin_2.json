@@ -1,11 +1,8 @@
 {
   "conditions": [
     {
-      "value": {
-        "modid": "thermal",
-        "type": "forge:mod_loaded"
-      },
-      "type": "forge:not"
+      "modid": "ten3",
+      "type": "forge:mod_loaded"
     }
   ],
   "type": "tconstruct:alloy",
@@ -15,11 +12,11 @@
       "amount": 100
     },
     {
-      "tag": "tconstruct:molten_tinkers_bronze",
+      "tag": "tconstruct:molten_tin",
       "amount": 144
     },
     {
-      "tag": "tconstruct:molten_iron",
+      "tag": "tconstruct:molten_copper",
       "amount": 144
     }
   ],
