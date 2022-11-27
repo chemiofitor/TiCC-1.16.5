@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "modid": "thermal",
+      "modid": "ten3",
       "type": "forge:mod_loaded"
     }
   ],
